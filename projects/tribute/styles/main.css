@@ -9,6 +9,12 @@ body {
 
 /***************************  #hero-img Row  *******************************/
 
+/* Jumbotron was too wide for my tastes, this makes it squeeze in a bit more and also centers it. */
+.jumbotron {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
 /* There was too much vertical spacing between the main headline and the sub-headline */
 #hero-img h2 {
   margin-top: 0;
@@ -21,4 +27,11 @@ body {
 
 #hero-img figcaption {
   margin-top: 14px;
+}
+
+
+/***************************  #notable-recordings  *************************/
+
+#notable-recordings h3 {
+  margin-bottom: 20px;
 }
