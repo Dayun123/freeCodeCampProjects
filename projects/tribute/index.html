@@ -43,17 +43,15 @@ Probably won't need much custom CSS, the goal of the project is just to get a si
     <!-- In Bootstrap, you must have a containing element to house the grid system. There are two types, .container and .container-fluid. I'm choosing .container because I want a fixed width container that doesn't span the entire viewport. -->
     <div class="container">
 
-      <!-- You need to place your content in columns, but columns must be children of rows, so each row will represent a logical division on the page, with columns filling out the content of that row. This particular row will hold the headline text for the tribute page. -->
-      <!-- <div class="row" id="headline">
-
-      </div> -->
-
-      <!-- The hero image of Jim Hall, along with a text description of the image. -->
+      <!-- You need to place your content in columns, but columns must be children of rows, so each row will represent a logical division on the page, with columns filling out the content of that row. This particular row will hold the headline text for the tribute page, the hero image of Jim Hall, and a text description of the image. -->
       <div class="row" id="hero-img">
         <div class="jumbotron text-center">
-            <h1>Jim Hall</h1>
-            <h2><small><em>Jazz Guitar Virtuoso</em></small></h2>
-            <img src="img/hero-img.jpg" class="img-responsive center-block">
+          <h1>Jim Hall</h1>
+          <h2><small><em>Jazz Guitar Virtuoso</em></small></h2>
+          <figure>
+            <img src="img/hero-img.jpg" class="img-responsive center-block" alt="Jim Hall giving the OK symbol">
+            <figcaption>Jim Hall looking cool</figcaption>
+          </figure>
         </div>
       </div>
 

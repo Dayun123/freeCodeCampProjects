@@ -7,18 +7,18 @@ body {
 
 
 
-/***************************  #headline Row  *******************************/
+/***************************  #hero-img Row  *******************************/
 
 /* There was too much vertical spacing between the main headline and the sub-headline */
 #hero-img h2 {
   margin-top: 0;
 }
 
-
-
-/***************************  #hero-img Row  *******************************/
-
 /* The image was too large on bigger screens, this guarantees it will stay manageable. */
 #hero-img img {
   max-width: 400px;
+}
+
+#hero-img figcaption {
+  margin-top: 14px;
 }
