@@ -1,0 +1,24 @@
+/***************************  Global styles  *******************************/
+
+/* Gives a little room between the top of the page and the headline text. */
+body {
+  margin-top: 40px;
+}
+
+
+
+/***************************  #headline Row  *******************************/
+
+/* There was too much vertical spacing between the main headline and the sub-headline */
+#hero-img h2 {
+  margin-top: 0;
+}
+
+
+
+/***************************  #hero-img Row  *******************************/
+
+/* The image was too large on bigger screens, this guarantees it will stay manageable. */
+#hero-img img {
+  max-width: 400px;
+}
