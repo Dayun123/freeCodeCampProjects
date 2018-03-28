@@ -30,6 +30,13 @@ body {
 }
 
 
+/***************************  #tribute-description  ************************/
+
+#tribute-description {
+  margin-top: 20px;
+}
+
+
 /***************************  #notable-recordings  *************************/
 
 #notable-recordings h3 {
